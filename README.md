@@ -1,8 +1,6 @@
 # GIS_Solar
 GEOG 4303 Final Project
 
-Members: Avra Saslow, Trevor Stanley, Xingying Huang 
-
 Project Summary: The primary mechanism by which a municipality or utility develops and acquires solar projects is by issuing Request For Proposals (RFPs) to prospective developers. Typically the window of time to bid into these RFPs is between two to six weeks. Hence, a developer must quickly identify and lock in a large number of suitable sites in order to compete for the RFP. This poses a large challenge, especially for smaller developers, when the service territory of the RFP issuer is large (e.g. it covers many counties or even states). Developers must parse through large datasets and spend large amounts of time trying to manually identify suitable locations via a tool like Google Earth, which lacks critical data such as parcel numbers and owner information.
 
 Our model automates this process and selects suitable solar parcels within Jefferson County based off of standard solar suitability criteria. These include that the parcel is outside of a floodplain, greater than 30 acres, within certain municipal zoning classes, has low vegetation, has an aspect between 90 and 270, has a slope grade of less than 8%, and is within two miles of electric infrastructure. The weighted rank of vegetation, aspect and slope can be changed by the developer using our visualization tool on a local host.
